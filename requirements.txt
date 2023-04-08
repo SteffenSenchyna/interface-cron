@@ -1,0 +1,4 @@
+pymongo==4.3.3
+pysnmp==4.4.12
+python-dotenv==1.0.0
+pysnmp-mibs

@@ -57,9 +57,10 @@ from dotenv import load_dotenv
 #                         lexicographicMode=False):
 #     for v in values:
 #         print(v)
-while True:
+def interface_check():
+    load_dotenv()
     device_ips = ["10.0.5.21", "10.0.5.22",
-                  "10.0.5.31", "10.0.5.32", "10.0.5.1"]
+                  "10.0.5.31", "10.0.5.32", "10.0.5.100"]
     for device_ip in device_ips:
         ints_init = []
         ints_delta = []
@@ -149,3 +150,6 @@ while True:
             print(f"Posted to DB with id {result.inserted_id}")
         except Exception as e:
             print(e)
+
+
+interface_check()

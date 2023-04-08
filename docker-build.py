@@ -1,7 +1,7 @@
 import os
 
 # Define the image name and tag
-image_name = 'ssenchyna/network-cron'
+image_name = 'ssenchyna/interface-cron'
 image_tag = '2.0'
 
 os.system(
